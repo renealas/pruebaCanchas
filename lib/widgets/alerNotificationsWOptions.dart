@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, file_names, prefer_const_constructors
+
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
@@ -18,6 +20,7 @@ class AlertNotificationWithOptions extends StatefulWidget {
   });
 
   @override
+  // ignore: library_private_types_in_public_api
   _AlertNotificationWithOptionsState createState() =>
       _AlertNotificationWithOptionsState();
 }

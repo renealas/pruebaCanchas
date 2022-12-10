@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, unnecessary_const, use_build_context_synchronously
+// ignore_for_file: use_key_in_widget_constructors, unnecessary_const, use_build_context_synchronously, avoid_function_literals_in_foreach_calls, prefer_is_empty, prefer_final_fields, sized_box_for_whitespace
 
 import 'dart:math';
 

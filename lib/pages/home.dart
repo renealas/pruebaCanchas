@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
             child: Expanded(
               child: Column(
                 children: [
-                  Text('Reservasiones'),
+                  const Text('Reservasiones'),
                   Expanded(
                     child: ListView.separated(
                       separatorBuilder: (context, index) => Margin.margin16(),
